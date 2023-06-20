@@ -1,0 +1,38 @@
+config = {
+    "configuration": {
+        "id": {
+            "type":"float"
+        },
+        "title": {
+            "type":"keyword"
+        },
+        "submitter": {
+            "type":"keyword"
+        },
+        "categories": {
+            "type":"keyword",
+            "struct_type":"list"
+        },
+        "labels": {
+            "type":"keyword",
+            "struct_type":"list"
+        },
+        "license": {
+            "type":"keyword"
+        },
+        "update_date": {
+            "type":"keyword"
+        },
+        "update_date_ts": {
+            "type":"integer"
+        },
+        "image_embedding": {
+            "type": "dense_vector",
+            "dim": 384,
+            "metric": "IP"
+        }
+    },
+    "settings": {
+      "list_delimiter": ","
+    }
+}

@@ -8,7 +8,7 @@ HyperSpace is a cloud-based hybrid search engine, powered by cloud FPGA hardware
 HyperSpace allows vector search, similarity search, or a combination of the two.
 The HyperSpace engine query syntax is native Python with supported functionality for candidate generation and scoring for similarity and vector searches. 
 
-Advantages of Using HyperSpace
+HyperSpace Advantages 
 =================================
 1. Hybrid Search: HyperSearch engine combines vector and similarity search within a single workframe, providing the best of both worlds. 
 2. Simplicity and Ease of Use: HyperSpace  native Python syntax allows a seamless and natural migration of existing codebases.

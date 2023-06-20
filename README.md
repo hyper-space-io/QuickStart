@@ -12,7 +12,7 @@ Advantages of Using HyperSpace
 =================================
 1. Hybrid Search: HyperSearch engine combines vector and similarity search within a single workframe, providing the best of both worlds. 
 2. Simplicity and Ease of Use: HyperSpace  native Python syntax allows a seamless and natural migration of existing codebases.
-3. Unparalleled Latency: HyperSpace offers x100-x10 lower latency when compared to industry benchmarks, allowing more complex logic in lower latency frames.
+3. Unparalleled Latency: HyperSpace offers x100-x10 lower latency, compared to industry benchmarks, allowing more complex logic in lower latency.
 4. Cost Efficiency: By leveraging HyperSpace, users can significantly reduce machine time requirements and associated costs.
 5. Advanced AI Possibilities: HyperSpace separates candidate generation from scoring, combined withe the extremely low latency, this allows use of complex AI techniques that are commonly impractical.
 

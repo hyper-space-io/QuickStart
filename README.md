@@ -24,9 +24,16 @@ Workflow - initial setup
 4. Ingest Data = Data Upload (not currently in correct order)
 5. Defining and running queries
 
+
 Workflow - Running Queries
 =================================
 1. Create query function (relevant only to similarity)
 2. Create query object
 3. Submit
 4. Access Results
+
+Example Datasets
+=================================
+This repository includes example for the use of Hyperspace Engine in various examples
+1. arXiv papers set -  taken from benchmarking sets [https://github.com/qdrant/ann-filtering-benchmark-datasets#data]. The data includes a combination of embedded text vectors and meta data, and can be used for vector, classic or hybrid searchs
+2. Crimes In Chicago set - taken from Kaggle, https://www.kaggle.com/datasets/chicago/chicago-crime, this dataset includes metadata and can be used to demonstrate classic searc

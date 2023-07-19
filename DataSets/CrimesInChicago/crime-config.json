@@ -1,0 +1,73 @@
+{
+  "configuration": {
+    "ID": {
+      "type": "integer"
+    },
+    "Case Number": {
+      "type": "keyword"
+    },
+    "Date": {
+      "type": "date",
+      "format": "MM/dd/yyyy hh:mm:ss a"
+    },
+    "Block": {
+      "type": "keyword"
+    },
+    "IUCR": {
+      "type": "keyword"
+    },
+    "Primary Type": {
+      "type": "keyword"
+    },
+    "Description": {
+      "type": "keyword"
+    },
+    "Location Description": {
+      "type": "keyword"
+    },
+    "Arrest": {
+      "type": "boolean"
+    },
+    "Domestic": {
+      "type": "boolean"
+    },
+    "Beat": {
+      "type": "integer"
+    },
+    "District": {
+      "type": "integer"
+    },
+    "Ward": {
+      "type": "integer"
+    },
+    "Community Area": {
+      "type": "integer"
+    },
+    "FBI Code": {
+      "type": "keyword"
+    },
+    "X Coordinate": {
+      "type": "integer"
+    },
+    "Y Coordinate": {
+      "type": "integer"
+    },
+    "Year": {
+      "type": "integer"
+    },
+    "Updated On": {
+      "type": "date",
+      "format": "MM/dd/yyyy hh:mm:ss a"
+    },
+    "Latitude": {
+      "type": "float"
+    },
+    "Longitude": {
+      "type": "float"
+    },
+    "Location": {
+      "type": "geo_point",
+      "struct_type": "list"
+    }
+  }
+}

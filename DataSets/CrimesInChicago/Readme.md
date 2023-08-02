@@ -7,7 +7,7 @@ This notebook demonstrates the use of Hyperspace engine for classic (keyword and
 
 The dataset includes 8 Million documents.
 
-# The dataset fields
+## The dataset fields
 1. **Case Number {'type': 'keyword'}** -
 The Chicago Police Department RD Number (Records Division Number), which is unique to the incident.
 2. **Date {'type': 'date', 'format': 'MM/dd/yyyy hh:mm:ss a'}** - Date when the incident occurred. this is sometimes a best estimate.

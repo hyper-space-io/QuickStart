@@ -18,12 +18,12 @@ Hyperspace Advantages
 
 Workflow - initial setup
 =================================
-1. Install and set local environment
-2. Update/Create Hyper config file
-3. Create collection - on existing db - (see managing collection)
-4. Ingest Data = Data Upload (not currently in correct order)
-5. Defining and running queries
-
+1. Download and install the client API
+2. Create data config file
+3. Connect to a server
+4. Create collection
+5. Ingest data
+6. Run query
 
 Workflow - Running Queries
 =================================

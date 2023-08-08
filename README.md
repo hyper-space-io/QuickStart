@@ -1,20 +1,20 @@
 About
 =================================
-This repository provides a sandbox that allows users to experiment with the HyperSpace engine. There are multiple datasets, allowing classic, vector and hybrid search.
+This repository provides a sandbox that allows users to experiment with the Hyperspace engine. The repository includes multiple datasets, allowing classic, vector and hybrid search.
 
 Introduction
 =================================
-HyperSpace is a cloud-based hybrid search engine, powered by cloud FPGA hardware. HyperSpace sets new standards in query performance by allowing high-throughput searches with extremely low latency, typically measuring x10-x100 faster than industry benchmarks, and at reduced costs. 
-HyperSpace allows vector search, similarity search, or a combination of the two.
-The HyperSpace engine query syntax is native Python with supported functionality for candidate generation and scoring for similarity and vector searches. 
+Hyperspace is a cloud-based hybrid search engine, powered by cloud FPGA hardware. Hyperspace sets new standards in query performance by allowing high-throughput searches with extremely low latency, typically measuring x10-x100 faster than industry benchmarks, and at reduced costs. 
+Hyperspace allows vector search, similarity search, or a combination of the two.
+The Hyperspace engine query syntax is native Python with supported functionality for candidate generation and scoring for similarity and vector searches. 
 
 Hyperspace Advantages 
 =================================
 1. Hybrid Search: HyperSearch engine combines vector and similarity search within a single workframe, providing the best of both worlds. 
-2. Simplicity and Ease of Use: HyperSpace  native Python syntax allows a seamless and natural migration of existing codebases.
-3. Unparalleled Latency: HyperSpace offers x100-x10 lower latency than industry benchmarks, allowing more complex logic in lower latency.
-4. Cost Efficiency: By leveraging HyperSpace, users can significantly reduce machine time requirements and associated costs.
-5. Advanced AI Possibilities: HyperSpace separates candidate generation from scoring, combined withe the extremely low latency, this allows use of complex AI techniques that are commonly impractical.
+2. Simplicity and Ease of Use: Hyperspace  native Python syntax allows a seamless and natural migration of existing codebases.
+3. Unparalleled Latency: Hyperspace offers x100-x10 lower latency than industry benchmarks, allowing more complex logic in lower latency.
+4. Cost Efficiency: By leveraging Hyperspace, users can significantly reduce machine time requirements and associated costs.
+5. Advanced AI Possibilities: Hyperspace separates candidate generation from scoring, combined withe the extremely low latency, this allows use of complex AI techniques that are commonly impractical.
 
 Workflow - initial setup
 =================================

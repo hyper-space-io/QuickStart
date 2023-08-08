@@ -1,6 +1,6 @@
 About
 =================================
-This repository provides a sandbox that allows users to experiment with the HyperSpace engine. This code can be modified to run with any NoSQL or vector data, but in its current form it is designed to run over one the qdrant benchmark datasets,  https://github.com/qdrant/ann-filtering-benchmark-datasets#data 
+This repository provides a sandbox that allows users to experiment with the HyperSpace engine. There are multiple datasets, allowing classic, vector and hybrid search.
 
 Introduction
 =================================

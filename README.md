@@ -1,6 +1,6 @@
 About
 =================================
-This repository provides a sandbox that allows users to experiment with the Hyperspace engine. The repository includes multiple datasets, allowing classic, vector and hybrid search.
+This repository is a sandbox for users to experiment with the Hyperspace search engine. The repository includes multiple datasets and corresponding notebooks, desgined for classic, vector and hybrid search.
 
 Introduction
 =================================

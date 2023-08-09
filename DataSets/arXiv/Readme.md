@@ -1,4 +1,4 @@
-#  Academic paper hybrid search with Hypersearch
+#  Academic paper hybrid search with Hyperspace
 This notebook demonstrates the use of Hyper Space engine for a hybrid search.
 
 # The Datset

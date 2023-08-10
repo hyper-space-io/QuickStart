@@ -1,5 +1,5 @@
 #  Binary vector and metadata search with Hyperspace
-This notebook demonstrates the use of Hyperspace engine for a combining binary vector search and metadata filtering
+This notebook demonstrates the use of Hyperspace engine for a hybrid search, which combines vector search of binaryy vectors and metadata filtering over their corresponding metadata.
 
 # The Dataset
 The dataset is randomly generated to include binary vectorS of dimension 800 and corresponding metadata.

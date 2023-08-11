@@ -34,6 +34,11 @@ Workflow - Running Queries
 
 Example Datasets
 =================================
-This repository includes example for the use of Hyperspace Engine in various examples
+This repository includes example for the use of Hyperspace Engine in various examples. Each set includes a corresponding notebook that allows a qucikstart and demonstrates the use of Hyperspace for the givne dataset.
 1. arXiv papers set -  taken from benchmarking sets [https://github.com/qdrant/ann-filtering-benchmark-datasets#data]. The data includes a combination of embedded text vectors and meta data, and can be used for vector, classic or hybrid searchs
-2. Crimes In Chicago set - taken from Kaggle, https://www.kaggle.com/datasets/chicago/chicago-crime, this dataset includes metadata and can be used to demonstrate classic searc
+2. Crimes In Chicago set - taken from Kaggle, https://www.kaggle.com/datasets/chicago/chicago-crime, this dataset includes metadata and can be used to demonstrate classic search.
+3. Stores Set - Randomly generated vectors of dimension 800, with corresopnding metadata that describes stoes. The data can be used for vector, classic or hybrid search.
+4. The data is taken from [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/latest/). The data includes 40954 valid movies. The data is in SQL format (table) and will be converted to NoSQL (documents) format. The data preprocessing is given in the notebook titles "MovieRecommendationDataPrep", available in this repository.
+The data can be used for vector, classic or hybrid search.
+
+

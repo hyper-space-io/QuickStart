@@ -27,7 +27,7 @@ Workflow - initial setup
 
 Workflow - Running Queries
 =================================
-1. Create query function (for similarity search)
+1. Create query function (for classic or hybrid search)
 2. Create query object
 3. Submit
 4. Access Results

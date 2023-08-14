@@ -2,7 +2,7 @@
 This notebook demonstrates the use of Hyper Space engine for a hybrid search.
 
 # The Datset
-The dataset is taken from [kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv) and includes a list of academic papers from arXiv, and their metadata.
+The dataset is taken from [kaggle](http://hyperspace-datasets.s3.amazonaws.com/arXiv_data.zip) and includes a list of academic papers from arXiv, and their metadata.
 We will use the combination of an embedded vector data and metadata, to create a hybrid search.
 
 # The Dataset Fields

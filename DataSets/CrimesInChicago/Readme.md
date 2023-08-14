@@ -1,5 +1,5 @@
 # Classic Search With Hyperspace
-This notebook demonstrates the use of Hyperspace engine for classic (keyword and value matching) search. The datase set is taken from [Kaggle](https://www.kaggle.com/datasets/chicago/chicago-crime).
+This notebook demonstrates the use of Hyperspace engine for classic (keyword and value matching) search. The datase set is taken from [Kaggle](https://www.kaggle.com/datasets/chicago/chicago-crime). The data is given as a .zip file in this repository.
 
 # The Dataset - Crimes In Chicago Dataset
 (From Kaggle)

@@ -2,7 +2,7 @@
 This notebook demonstrates the use of Hyperspace engine to create a movie recommendation system, by first using classic search and then hybrid search, a combination of classic and vector searches, by combining  word embedding with metadata filtering. 
 
 # The Datset
-The data is taken from [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/latest/) and was downloaded from [Kaggle movie recommender system dataset ](https://www.kaggle.com/code/rounakbanik/movie-recommender-systems). The data includes 40954 valid movies. The data is in SQL format (table) and will be converted to NoSQL (documents) format. The data preprocessing is given in the notebook titles "MovieRecommendationDataPrep", available in this repository.
+ The data includes 40954 valid movies. The data is in SQL format (table) and will be converted to NoSQL (documents) format. The data preprocessing is given in the notebook titles "MovieRecommendationDataPrep", available in this repository. The processed data is available in this repository, where the original data is taken from [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/latest/) and was downloaded from [Kaggle movie recommender system dataset ](https://www.kaggle.com/code/rounakbanik/movie-recommender-systems).
 
 
 # The NoSQL Dataset Fields

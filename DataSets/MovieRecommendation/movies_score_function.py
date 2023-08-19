@@ -18,7 +18,7 @@ def score_function_recommendation(Q, V):
         score0 += 10.0
     elif V["rating"] >= 6.5:
         score0 += 6.0
-    elif V["rating"] < 4.5:
+    elif V["rating"] < 5.2:
         score0 -= 2.0
     score1 = max(score0, score1)
 
@@ -26,7 +26,7 @@ def score_function_recommendation(Q, V):
     if match('belongs_to_collection'):
         boost = 2.0
 
-    if V["budget"] >= 1000000:
+    if V["budget"] >= 20000000:
         score0 += 5.0
 
     sum_score = boost * (score0 + score1)

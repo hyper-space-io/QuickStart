@@ -35,10 +35,10 @@ Workflow - Running Queries
 Example Datasets
 =================================
 This repository includes various datasets and notebooks, aimed to demonstrate  the use of Hyperspace Engine. Currently, the following datasets are included:
-1. arXiv Papers Data Set -  The dataset is taken from [kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/) and includes a list of academic papers from arXiv, and their metadata, and can be used for vector, classic or hybrid searchs
-2. Crimes In Chicago Data set - taken from [kaggle](https://www.kaggle.com/datasets/chicago/chicago-crime/), this dataset includes metadata and can be used to demonstrate classic search.
-3. Stores Data Set - Randomly generated vectors of dimension 800, with corresopnding metadata that describes stoes. The data can be used for vector, classic or hybrid search.
-4. Movies Data Set - The data is taken from [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/latest/). The data includes 40954 valid movies. The data is in SQL format (table) and will be converted to NoSQL (documents) format. The data preprocessing is given in the notebook titles "MovieRecommendationDataPrep", available in this repository.
+1. arXiv Papers Dataset -  The dataset is taken from [kaggle](https://www.kaggle.com/datasets/Cornell-University/arxiv/) and includes a list of academic papers from arXiv, and their metadata, and can be used for vector, classic or hybrid searchs
+2. Crimes In Chicago Dataset - taken from [kaggle](https://www.kaggle.com/datasets/chicago/chicago-crime/), this dataset includes metadata and can be used to demonstrate classic search.
+3. Stores Dataset - Randomly generated vectors of dimension 800, with corresopnding metadata that describes stoes. The data can be used for vector, classic or hybrid search.
+4. Movies Dataset - The data is taken from [MovieLens Latest Datasets](https://grouplens.org/datasets/movielens/latest/). The data includes 40954 valid movies. The data is in SQL format (table) and will be converted to NoSQL (documents) format. The data preprocessing is given in the notebook titles "MovieRecommendationDataPrep", available in this repository.
 The data can be used for vector, classic or hybrid search.
 
 

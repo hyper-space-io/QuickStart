@@ -43,6 +43,6 @@ The data can be used for vector, classic or hybrid search.
 
 Argmax Datasets
 =================================
-We have added two example datasets. The data for these usecases can be found [here](https://drive.google.com/drive/folders/1d3WJ9cYpq3q6ZJjVxu4JeRmDvui3dZLi?usp=sharing)
+We have added two example datasets. The data for these usecases can be found [here](https://drive.google.com/drive/folders/1d3WJ9cYpq3q6ZJjVxu4JeRmDvui3dZLi?usp=sharing) To Run the code you should add data folder to each code example with the data from the link above.
 1. Advec - Dataset of applications. 
 2. Image-search - Dataset of amazon items.  

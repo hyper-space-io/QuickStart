@@ -1,0 +1,30 @@
+{
+  "configuration": {
+    "id": {
+      "type": "keyword",
+      "id": true
+    },
+    "title": {
+      "type": "keyword"
+    },
+    "bundle_id": {
+      "type": "keyword"
+    },
+    "ios": {
+      "type": "boolean"
+    },
+    "categories": {
+      "type": "keyword",
+      "struct_type": "list"
+    },
+    "content": {
+      "type": "keyword"
+    },
+    "embedded_app": {
+      "type": "dense_vector",
+      "dim": 384,
+      "index_type": "brute_force",
+      "metric": "IP"
+    }
+  }
+}

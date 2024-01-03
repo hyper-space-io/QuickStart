@@ -1,0 +1,37 @@
+{
+  "configuration": {
+    "id": {
+      "type": "keyword",
+      "id": true
+    },
+    "amznid": {
+      "type": "keyword"
+    },
+    "title": {
+      "type": "keyword"
+    },
+    "keywords": {
+      "type": "keyword",
+      "struct_type": "list"
+    },
+    "must_include": {
+      "type": "keyword",
+      "struct_type": "list"
+    },
+    "img_link": {
+      "type": "keyword"
+    },
+    "img_clip": {
+      "type": "dense_vector",
+      "dim": 512,
+      "index_type": "brute_force",
+      "metric": "IP"
+    },
+    "txt_clip": {
+      "type": "dense_vector",
+      "dim": 512,
+      "index_type": "brute_force",
+      "metric": "IP"
+    }
+  }
+}

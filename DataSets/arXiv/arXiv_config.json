@@ -1,0 +1,40 @@
+{
+  "configuration": {
+    "doc_id": {
+      "type": "keyword",
+      "id": true
+    },
+    "id": {
+      "type": "float"
+    },
+    "title": {
+      "type": "keyword"
+    },
+    "submitter": {
+      "type": "keyword"
+    },
+    "categories": {
+      "type": "keyword",
+      "struct_type": "list"
+    },
+    "labels": {
+      "type": "keyword",
+      "struct_type": "list"
+    },
+    "license": {
+      "type": "keyword"
+    },
+    "update_date": {
+      "type": "keyword"
+    },
+    "update_date_ts": {
+      "type": "integer"
+    },
+    "embedded_abstract": {
+      "type": "dense_vector",
+      "dim": 384,
+      "index_type": "brute_force",
+      "metric": "IP"
+    }
+  }
+}

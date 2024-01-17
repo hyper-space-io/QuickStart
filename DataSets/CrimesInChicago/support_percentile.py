@@ -82,9 +82,7 @@ def do_percentile(input_dict) :
     plt.title( input_dict["fig_title"])
     plt.xticks(phys_x_ticks, phys_x_labels)
     plt.xticks(rotation=45)
-    plt.xlim([0, 1])
-    plt.ylim(input_dict["ylim"])
-    
+        
     for temp_sample in input_dict["samples"] :
         
         (x_list, y_list)  = scale_order( temp_sample["data"] )
@@ -94,6 +92,11 @@ def do_percentile(input_dict) :
         plt.scatter(trans_x_list, y_list, label = temp_sample["legend"])
 
         
+    plt.xlim([0, 1])
+    if input_dict["ylim"] != None :
+        plt.ylim(input_dict["ylim"])
+    else :
+        plt.ylim([0, 10000])
         
     plt.legend()
     plt.grid()
